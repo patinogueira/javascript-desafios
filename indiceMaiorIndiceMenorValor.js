@@ -2,9 +2,8 @@
 // descubra qual é o índice do maior valor
 // e o índice do menor valor.
 
-function indiceMaiorMenor(){
-//altere a lista como quiser
-let lista = [6, 45, -10, 1953, 330, 47, 80, 2, 12, 130, -100, 170, 77, 798]
+function indiceMaiorMenor(...lista){
+
 let tamanhoArray = lista.length
 let numMaior = lista[0]
 let numMenor = lista[0]
@@ -25,4 +24,4 @@ console.log(`O maior número da lista é ${numMaior} e ele possui o índice igua
 console.log(`O menor número da lista é ${numMenor} e ele possui o índice igual a ${indiceMenor}`)
 }
 
-indiceMaiorMenor()
+indiceMaiorMenor(4,-3,50,100,1902,-750,6,59)
